@@ -14,7 +14,9 @@ The product team and the architecture team after numerous meetings decided that 
 
 ### Task 1
 
-Create a service that would collect the stock market data for given stock ticker/symbol/ISIN/CUSIP. For a given list of stock ticket, collect the date, high, low and close price for each day and store in a database. The job should run at least once a day.
+Create a service that would collect the stock market data for given stock ticker/symbol/ISIN/CUSIP. For a given list of stock ticker, collect the date, high, low and close price for each day and store in a database. The job should run at least once a day.
+
+A list of Tickers are provided in the following file [ticker_symbols.txt](/ticker_symbols.txt). Use these tickers for task 1.
 
 ##### DEV NOTES
 - Create a Python service that would run as a Daemon, CLI or CRON job to achieve the above task.
